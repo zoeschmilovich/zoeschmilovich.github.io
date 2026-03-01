@@ -7,8 +7,6 @@ redirect_from:
   - /resume
 ---
 
-[Download my complete CV (PDF)](/files/zoe-schmilovich-cv-2026.pdf)
-
 <br><br>
 
 <object data="/files/zoe-schmilovich-cv-2026.pdf" 
