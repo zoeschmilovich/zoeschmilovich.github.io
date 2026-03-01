@@ -1,6 +1,9 @@
 #!/bin/bash
 
 mkdir -p _talks
+mkdir -p _teaching
+
+# functions
 
 create_talk () {
   DATE=$1
@@ -27,6 +30,36 @@ EOF
 
   echo "Created $FILE"
 }
+
+create_teaching () {
+  DATE=$1
+  SLUG=$2
+  TITLE=$3
+  TYPE=$4
+  VENUE=$5
+  LOCATION=$6
+
+  mkdir -p _teaching
+
+  FILE="_teaching/${DATE}-${SLUG}.md"
+
+  cat <<EOF > $FILE
+---
+title: "$TITLE"
+collection: teaching
+type: "$TYPE"
+permalink: /teaching/${DATE}-${SLUG}
+venue: "$VENUE"
+location: "$LOCATION"
+date: ${DATE}-01-01
+---
+
+EOF
+
+  echo "Created $FILE"
+}
+
+# call functions
 
 create_talk 2024 precision-medicine \
 "Precision Medicine Winter Symposium" \
@@ -58,4 +91,17 @@ create_talk 2026 future-in-focus \
 "The Desjardins Centre for Advanced Training, Research Institute of the MUHC" \
 "Montreal, Canada"
 
-echo "All talks created successfully."
+create_teaching 2024 grad-seminar \
+"TEMPLATE" \
+"Graduate Course" \
+"McGill University" \
+"Montreal, Canada"
+
+create_teaching 2023 guest-lecture \
+"Introduction to GWAS and PRS Workshop" \
+"TEMPLATE" \
+"McGill University" \
+"Montreal, Canada"
+
+echo "All .md files created successfully."
+

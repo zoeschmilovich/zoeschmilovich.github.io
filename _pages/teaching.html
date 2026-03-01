@@ -1,12 +1,17 @@
 ---
-layout: archive
-title: "teaching"
+layout: single
+title: "Teaching"
 permalink: /teaching/
 author_profile: true
 ---
 
-{% include base_path %}
+{% assign sorted_teaching = site.teaching | sort: "date" | reverse %}
 
-{% for post in site.teaching reversed %}
-  {% include archive-single.html %}
+{% for course in sorted_teaching %}
+<p>
+  <strong>{{ course.type }}</strong> — 
+  {{ course.title }}. 
+  <em>{{ course.venue }}</em>, {{ course.location }} 
+  ({{ course.date | date: "%Y" }}).
+</p>
 {% endfor %}
