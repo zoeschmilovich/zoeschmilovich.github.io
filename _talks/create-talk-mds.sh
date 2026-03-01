@@ -28,8 +28,6 @@ EOF
   echo "Created $FILE"
 }
 
-# ===== ADD YOUR TALKS BELOW =====
-
 create_talk 2024 precision-medicine \
 "Precision Medicine Winter Symposium" \
 "Invited Speaker" \

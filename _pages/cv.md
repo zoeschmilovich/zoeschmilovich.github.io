@@ -7,8 +7,6 @@ redirect_from:
   - /resume
 ---
 
-<br><br>
-
 <object data="/files/zoe-schmilovich-cv-2026.pdf" 
         type="application/pdf" 
         width="100%" 
