@@ -1,22 +1,27 @@
 var addressPoints = [
   [
-    "Talk 1 on Relevant Topic in Your Field<br />UC San Francisco, Department of Testing; San Francisco, CA, USA",
-    37.7879363,
-    -122.4075201
+    "Modelling the combined effects of rare and common genetic variants, with opposite effects on cognition, on autism spectrum disorder risk<br />National Academy of Medicine; Paris, France",
+    48.8588897,
+    2.320041
   ],
   [
-    "Talk 2 on Relevant Topic in Your Field<br />London School of Testing; London, UK",
-    51.5074456,
-    -0.1277653
+    "Future in Focus: Development of a Commercialization Plan and Continued Assessment for Drug Safety<br />The Desjardins Centre for Advanced Training, Research Institute of the MUHC; Montreal, Canada",
+    45.5031824,
+    -73.5698065
   ],
   [
-    "Tutorial 1 on Relevant Topic in Your Field<br />UC-Berkeley Institute for Testing Science; Berkeley, CA, USA",
-    37.8708393,
-    -122.272863
+    "Exploring the common genetic architecture of autism spectrum disorder using a novel multi-polygenic risk score approach<br />World Congress of Psychiatric Genetics; Montreal, Canada",
+    45.5031824,
+    -73.5698065
   ],
   [
-    "Conference Proceeding talk 3 on Relevant Topic in Your Field<br />Testing Institute of America 2014 Annual Conference; Los Angeles, CA, USA",
-    34.0536909,
-    -118.242766
+    "Precision Medicine Winter Symposium<br />Precision Medicine Winter Symposium, McGill University Health Centre; Montreal, Canada",
+    45.5031824,
+    -73.5698065
+  ],
+  [
+    "Exploring the common genetic architecture of autism spectrum disorder using a novel multi-polygenic risk score approach<br />European Society for Human Genetics; Scotland, UK",
+    56.7861112,
+    -4.1140518
   ]
 ];
