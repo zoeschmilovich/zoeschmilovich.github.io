@@ -1,36 +1,26 @@
 ---
-layout: archive
+layout: single
 title: "Publications"
 permalink: /publications/
 author_profile: true
 ---
 
-{% if site.author.googlescholar %}
-  <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
-{% endif %}
+A complete and up-to-date list of publications is available on my [Google Scholar profile](https://scholar.google.com/citations?user=wziRenoAAAAJ&hl=en&oi=ao).
 
-{% include base_path %}
+## Selected Publications
 
-<!-- New style rendering if publication categories are defined -->
-{% if site.publication_category %}
-  {% for category in site.publication_category  %}
-    {% assign title_shown = false %}
-    {% for post in site.publications reversed %}
-      {% if post.category != category[0] %}
-        {% continue %}
-      {% endif %}
-      {% unless title_shown %}
-        <h2>{{ category[1].title }}</h2><hr />
-        {% assign title_shown = true %}
-      {% endunless %}
-      {% include archive-single.html %}
-    {% endfor %}
-  {% endfor %}
-{% else %}
-  {% for post in site.publications reversed %}
-    {% include archive-single.html %}
-  {% endfor %}
-{% endif %}
+**Schmilovich Z**, Bourque V-R, Douard E, Huguet G, et al.  
+*Copy-number variants and polygenic risk for intelligence confer risk for autism spectrum disorder irrespective of their effects on cognitive ability.*  
+Frontiers in Psychiatry. 2024.
 
+**Schmilovich Z**, Bourque V-R, Huguet G, et al.  
+*Exploring the common genetic architecture of autism spectrum disorder using a novel multi-polygenic risk score approach.*  
+medRxiv. 2023.
 
+**Schmilovich Z**, Huguet G, He Q, et al.  
+*Copy-number variants in the contactin-5 gene are a potential risk factor for autism spectrum disorder.*  
+Research in Autism Spectrum Disorders. 2022.
 
+Bourque V-R, **Schmilovich Z**, et al.  
+*Genomic and developmental models to predict cognitive and adaptive outcomes in autistic children.*  
+JAMA Pediatrics. 2025.
