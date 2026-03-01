@@ -1,8 +1,8 @@
 var addressPoints = [
   [
     "Modelling the combined effects of rare and common genetic variants, with opposite effects on cognition, on autism spectrum disorder risk<br />National Academy of Medicine; Paris, France",
-    48.8588897,
-    2.320041
+    48.8534951,
+    2.3483915
   ],
   [
     "Future in Focus: Development of a Commercialization Plan and Continued Assessment for Drug Safety<br />The Desjardins Centre for Advanced Training, Research Institute of the MUHC; Montreal, Canada",
